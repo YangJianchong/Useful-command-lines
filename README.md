@@ -10,13 +10,13 @@
 
         ^ + W
 
-useful commands
+## useful commands
 	
 * 	截图保存路径
-'''
+```
         defaults write com.apple.screencapture location /path/
         killall SystemUIServer
-'''
+```
 * 	截图文件格式
 
         defaults write com.apple.screencapture type jpg
