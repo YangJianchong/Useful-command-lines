@@ -15,9 +15,8 @@ press `^W`
 	
 * 截图保存路径
 
-<pre><code>defaults write com.apple.screencapture location <em>/path/</em> 
-<p>killall SystemUIServer</p></code>
-</pre>
+<pre><code>defaults write com.apple.screencapture location <em>/path/</em>
+killall SystemUIServer</code></pre>
 
 * 截图文件格式
 
