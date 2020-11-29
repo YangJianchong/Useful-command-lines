@@ -1,7 +1,5 @@
 # Useful-command-lines
 
-## Terminal Commands
-
 <em>(text in italic needs to be modified)</em>
 
 ## shortcuts
@@ -9,7 +7,6 @@
 * delete strings
 
 press `^W`
-
 
 ## useful commands
 	
