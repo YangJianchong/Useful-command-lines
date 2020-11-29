@@ -43,15 +43,15 @@ open -R ExportReadingList.command
 
 * ffmpeg trim video	( -ss for star time, -t for duration time)
 
-<pre><code>ffmpeg -i <em>/SourceFilePath/</em>  -ss <em>hh:mm:ss</em> -t <em>hh:mm:ss</em> -c copy <em>OutputFilePath/</em></code></pre>
+<pre><code>ffmpeg -i <em>ExampleInput</em> -ss <em>hh:mm:ss</em> -t <em>hh:mm:ss</em> -c copy <em>ExampleOutput.mov</em></code></pre>
+
+* ffmpeg download stream
+
+<pre><code>ffmpeg -i "<em>https://&lt;domain&gt;/.m3u8</em>" -c:v copy -c:a copy -bsf:a aac_adtstoasc <em>ExapmleOutput.flv</em></code></pre>
 
 * 修改文件创建时间(t)/修改时间(mt)
 
 <pre><code>touch -t <em>[[CC]YY]MMDDhhmm[.ss]</em> <em>/path/</em></code></pre>
-
-* download stream
-
-<pre><code>ffmpeg -i "<em>https://&lt;domain&gt;/.m3u8</em>" -c:v copy -c:a copy -bsf:a aac_adtstoasc <em>ExapmleOutput.flv</em></code></pre>
 
 * download Twitter Album (with DownAlbum Extension)
 
