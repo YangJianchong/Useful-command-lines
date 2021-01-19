@@ -49,7 +49,7 @@ open -R ExportReadingList.command
 
 <pre><code>ffmpeg -i "<em>https://&lt;domain&gt;/.m3u8</em>" -c:v copy -c:a copy -bsf:a aac_adtstoasc <em>ExapmleOutput.flv</em></code></pre>
 
-* 修改文件创建时间(t)/修改时间(mt)
+* 修改文件创建时间(`-t`)/修改时间(`mt`)
 
 <pre><code>touch -t <em>[[CC]YY]MMDDhhmm[.ss]</em> <em>/path/</em></code></pre>
 
