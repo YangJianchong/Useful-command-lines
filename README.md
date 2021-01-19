@@ -55,7 +55,7 @@ open -R ExportReadingList.command
 
 * download Twitter Album (with DownAlbum Extension)
 
-<pre><code>aria2c --all-proxy=<em>http://127.0.0.1:1087</em> --remote-time true --log=<em>/Users/username/.aria2/log</em>  -i <em>url.txt</em></code></pre>
+<pre><code>aria2c --all-proxy=<em>http://address:port</em> --remote-time true --log=<em>/Users/username/.aria2/log</em>  -i <em>url.txt</em></code></pre>
 	
 * ffmpeg crop then scale video, add chapter to video and encode to h.265 with frame rate 23.976
 
