@@ -68,6 +68,9 @@ open -R ExportReadingList.command
 
 <pre><code>ffmpeg -i <em>ExampleInput.mov</em> -i <em>metadata.txt</em> -map_metadata 1  -c:a copy -c:v libx265 -crf 22 -tag:v hvc1 -vf crop=<em>1334:750:0:292</em>,scale=<em>1280:720</em> -r <em>23.976</em> <em>ExampleOutput.mov</em></code></pre>
 
+* [ffmpeg merge video and audio](https://superuser.com/questions/277642/how-to-merge-audio-and-video-file-in-ffmpeg)
+<pre><code>ffmpeg -i <em>video.mp4</em> -i <em>audio.wav</em> -c:v copy -c:a aac -map 0:v:0 -map 1:a:0 <em>output.mp4</em></code></pre>
+
 ### aria2
 
 * download Twitter Album (with DownAlbum Extension)
