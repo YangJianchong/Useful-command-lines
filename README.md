@@ -54,9 +54,12 @@ open -R ExportReadingList.command
 
 <pre><code>touch -t <em>[[CC]YY]MMDDhhmm[.ss]</em> <em>/path/</em></code></pre>
 
-* ffmpeg trim video	( -ss for star time, -t for duration time)
+* [在 Finder 中显示文件](https://apple.stackexchange.com/questions/402789/reveal-in-finder-from-the-terminal/402796#402796)
+<pre><code>open -R <em>/path/to/file</em></code></pre>
 
 ### ffmpeg
+
+* ffmpeg trim video	( -ss for star time, -t for duration time)
 
 <pre><code>ffmpeg -i <em>ExampleInput</em> -ss <em>hh:mm:ss</em> -t <em>hh:mm:ss</em> -c copy <em>ExampleOutput.mov</em></code></pre>
 
