@@ -80,3 +80,6 @@ open -R ExportReadingList.command
 
 <pre><code>aria2c --all-proxy=<em>http://address:port</em> --remote-time true --log=<em>/Users/username/.aria2/log</em>  -i <em>url.txt</em></code></pre>
 	
+## 参考/推荐阅读
+
+* [Awesome macOS Command Line](https://github.com/herrbischoff/awesome-macos-command-line)
