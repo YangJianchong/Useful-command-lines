@@ -83,3 +83,4 @@ open -R ExportReadingList.command
 ## 参考/推荐阅读
 
 * [Awesome macOS Command Line](https://github.com/herrbischoff/awesome-macos-command-line)
+* [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
